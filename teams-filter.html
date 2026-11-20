@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <title>Rob Teams Video Filter &amp; Live Camera Co-Pilot</title>
+    <style>
+      *, *::before, *::after {
+        box-sizing: border-box;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+        background: #1f1f1f;
+        color: #ffffff;
+        font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+        min-height: 100vh;
+        -webkit-font-smoothing: antialiased;
+      }
+      /* Keep the raw Three.js canvas off-screen visually so it only composites into #rob-teams-composite-canvas */
+      #rob-webgl-overlay {
+        opacity: 0 !important;
+        pointer-events: none !important;
+        z-index: -1 !important;
+      }
+    </style>
+    <script type="module" crossorigin src="./assets/teamsFilter-DeEnnn6l.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/catalogData-D6kI6kVs.js">
+  </head>
+  <body>
+    <div id="teams-filter-root"></div>
+    <script src="./teams-js.min.js"></script>
+  </body>
+</html>
