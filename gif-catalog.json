@@ -1,0 +1,704 @@
+{
+  "version": 1,
+  "customDresses": [],
+  "customAnimations": [
+    {
+      "id": "signHold",
+      "label": "Mower Drive-In, Raise Sign & Drive Out",
+      "category": "tools",
+      "description": "Drives in from the right looking in the driving direction, stops in the middle and turns to hold up the sign, then turns back and drives away to the left out of the frame (6.4s)",
+      "recommendedDress": "rudolph",
+      "createdAt": "2026-11-04T10:05:59.798Z",
+      "clipConfig": {
+        "yaw": 0,
+        "pitch": 0,
+        "roll": 0,
+        "mirror": true,
+        "loop": true,
+        "ai": {
+          "baseClip": null,
+          "duration": 6.4,
+          "blendMode": "replace",
+          "collisionAvoidance": false,
+          "withMower": true,
+          "grabAt": 0,
+          "releaseAt": 6.4,
+          "prompt": "Rob drives into the view from the right sitting on the mower looking in the driving direction, stops in the middle, turns to the camera to hold up the sign, then turns back and drives away to the left out of the frame",
+          "keyframes": [
+            {
+              "t": 0,
+              "ease": "ease50",
+              "head": {
+                "yaw": 52,
+                "pitch": 2,
+                "roll": 0
+              },
+              "torso": {
+                "lean": 4,
+                "sway": 0,
+                "twist": 26
+              },
+              "pelvis": {
+                "dx": 0.58,
+                "dy": 0,
+                "dz": 0
+              },
+              "rightArm": {
+                "raise": 42,
+                "forward": -20,
+                "twist": -10,
+                "elbowBend": 6,
+                "forearmTwist": 28
+              },
+              "leftArm": {
+                "raise": 8,
+                "forward": 14,
+                "twist": 12,
+                "elbowBend": 24,
+                "forearmTwist": 0
+              },
+              "rightHand": "grip",
+              "leftHand": "grip",
+              "face": "happy"
+            },
+            {
+              "t": 1.45,
+              "ease": "ease50",
+              "head": {
+                "yaw": 50,
+                "pitch": 2,
+                "roll": 0
+              },
+              "torso": {
+                "lean": 4,
+                "sway": 0,
+                "twist": 25
+              },
+              "pelvis": {
+                "dx": -0.122,
+                "dy": 0,
+                "dz": 0
+              },
+              "rightArm": {
+                "raise": 42,
+                "forward": -20,
+                "twist": -10,
+                "elbowBend": 6,
+                "forearmTwist": 28
+              },
+              "leftArm": {
+                "raise": 8,
+                "forward": 14,
+                "twist": 12,
+                "elbowBend": 24,
+                "forearmTwist": 0
+              },
+              "rightHand": "grip",
+              "leftHand": "grip",
+              "face": "happy"
+            },
+            {
+              "t": 1.65,
+              "ease": "ease50",
+              "head": {
+                "yaw": 34,
+                "pitch": 2,
+                "roll": 1
+              },
+              "torso": {
+                "lean": 3,
+                "sway": -2,
+                "twist": 14
+              },
+              "pelvis": {
+                "dx": -0.122,
+                "dy": 0,
+                "dz": 0
+              },
+              "rightArm": {
+                "raise": 44,
+                "forward": -12,
+                "twist": 0,
+                "elbowBend": 5,
+                "forearmTwist": 28
+              },
+              "leftArm": {
+                "raise": 8,
+                "forward": 14,
+                "twist": 12,
+                "elbowBend": 24,
+                "forearmTwist": 0
+              },
+              "rightHand": "grip",
+              "leftHand": "grip",
+              "face": "happy"
+            },
+            {
+              "t": 2.35,
+              "ease": "ease50",
+              "head": {
+                "yaw": -2,
+                "pitch": 5,
+                "roll": 3
+              },
+              "torso": {
+                "lean": 2,
+                "sway": -5,
+                "twist": -5
+              },
+              "pelvis": {
+                "dx": -0.122,
+                "dy": 0,
+                "dz": 0
+              },
+              "rightArm": {
+                "raise": 88,
+                "forward": 4,
+                "twist": 22,
+                "elbowBend": 2,
+                "forearmTwist": 28
+              },
+              "leftArm": {
+                "raise": 8,
+                "forward": 14,
+                "twist": 12,
+                "elbowBend": 24,
+                "forearmTwist": 0
+              },
+              "rightHand": "grip",
+              "leftHand": "grip",
+              "face": "excited"
+            },
+            {
+              "t": 3.25,
+              "ease": "ease50",
+              "head": {
+                "yaw": 2,
+                "pitch": 3,
+                "roll": 1
+              },
+              "torso": {
+                "lean": 2.5,
+                "sway": -4,
+                "twist": -4
+              },
+              "pelvis": {
+                "dx": -0.122,
+                "dy": 0,
+                "dz": 0
+              },
+              "rightArm": {
+                "raise": 90,
+                "forward": 4,
+                "twist": 23,
+                "elbowBend": 2,
+                "forearmTwist": 28
+              },
+              "leftArm": {
+                "raise": 8,
+                "forward": 14,
+                "twist": 12,
+                "elbowBend": 24,
+                "forearmTwist": 0
+              },
+              "rightHand": "grip",
+              "leftHand": "grip",
+              "face": "happy"
+            },
+            {
+              "t": 4.15,
+              "ease": "ease50",
+              "head": {
+                "yaw": -2,
+                "pitch": 5,
+                "roll": 3
+              },
+              "torso": {
+                "lean": 2,
+                "sway": -5,
+                "twist": -5
+              },
+              "pelvis": {
+                "dx": -0.122,
+                "dy": 0,
+                "dz": 0
+              },
+              "rightArm": {
+                "raise": 88,
+                "forward": 4,
+                "twist": 22,
+                "elbowBend": 2,
+                "forearmTwist": 28
+              },
+              "leftArm": {
+                "raise": 8,
+                "forward": 14,
+                "twist": 12,
+                "elbowBend": 24,
+                "forearmTwist": 0
+              },
+              "rightHand": "grip",
+              "leftHand": "grip",
+              "face": "happy"
+            },
+            {
+              "t": 4.75,
+              "ease": "ease50",
+              "head": {
+                "yaw": 52,
+                "pitch": 2,
+                "roll": 0
+              },
+              "torso": {
+                "lean": 4,
+                "sway": 0,
+                "twist": 26
+              },
+              "pelvis": {
+                "dx": -0.122,
+                "dy": 0,
+                "dz": 0
+              },
+              "rightArm": {
+                "raise": 42,
+                "forward": -20,
+                "twist": -10,
+                "elbowBend": 6,
+                "forearmTwist": 28
+              },
+              "leftArm": {
+                "raise": 8,
+                "forward": 14,
+                "twist": 12,
+                "elbowBend": 24,
+                "forearmTwist": 0
+              },
+              "rightHand": "grip",
+              "leftHand": "grip",
+              "face": "happy"
+            },
+            {
+              "t": 6.4,
+              "ease": "ease50",
+              "head": {
+                "yaw": 52,
+                "pitch": 2,
+                "roll": 0
+              },
+              "torso": {
+                "lean": 4,
+                "sway": 0,
+                "twist": 26
+              },
+              "pelvis": {
+                "dx": -1.02,
+                "dy": 0,
+                "dz": 0
+              },
+              "rightArm": {
+                "raise": 42,
+                "forward": -20,
+                "twist": -10,
+                "elbowBend": 6,
+                "forearmTwist": 28
+              },
+              "leftArm": {
+                "raise": 8,
+                "forward": 14,
+                "twist": 12,
+                "elbowBend": 24,
+                "forearmTwist": 0
+              },
+              "rightHand": "grip",
+              "leftHand": "grip",
+              "face": "happy"
+            }
+          ],
+          "promptHistory": [
+            {
+              "role": "initial",
+              "text": "Rob drives into the view from the right sitting on the mower looking in the driving direction, stops in the middle, turns to the camera to hold up the sign, then turns back and drives away to the left out of the frame"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rudolphWaveLoop",
+      "label": "Greeting Wave (Seamless Loop)",
+      "category": "waves",
+      "description": "Front-facing palm-to-camera greeting wave with natural blink and zero antler overlap (2.4s seamless loop)",
+      "recommendedDress": "rudolph",
+      "createdAt": "2026-11-03T16:20:00.000Z",
+      "clipConfig": {
+        "yaw": 0,
+        "pitch": 0,
+        "roll": 0,
+        "loop": true,
+        "ai": {
+          "baseClip": null,
+          "duration": 2.4,
+          "blendMode": "replace",
+          "collisionAvoidance": false,
+          "prompt": "Seamless friendly greeting wave with Rudolph outfit",
+          "keyframes": [
+            {
+              "t": 0,
+              "ease": "sine",
+              "head": {
+                "yaw": -2,
+                "pitch": 4,
+                "roll": -2.5
+              },
+              "torso": {
+                "lean": 2,
+                "sway": -1.5,
+                "twist": 3
+              },
+              "pelvis": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+              },
+              "leftArm": {
+                "raise": 66,
+                "forward": 42,
+                "twist": 64,
+                "elbowBend": 28,
+                "forearmTwist": -28
+              },
+              "rightArm": {
+                "raise": 2,
+                "forward": 4,
+                "twist": 4,
+                "elbowBend": 8,
+                "forearmTwist": 0
+              },
+              "leftHand": {
+                "preset": "wave",
+                "wristFlex": -15,
+                "wristDev": 14
+              },
+              "rightHand": "relaxed",
+              "face": {
+                "mouthSmile": 0.88,
+                "jawOpen": 0.14,
+                "eyeBlinkL": 0,
+                "eyeBlinkR": 0,
+                "eyeLookX": -0.06,
+                "eyeLookY": 0.04,
+                "eyeConfused": 0,
+                "showSuccess": 0,
+                "thrusterGlow": 0.92
+              }
+            },
+            {
+              "t": 0.6,
+              "ease": "sine",
+              "head": {
+                "yaw": 2,
+                "pitch": 2,
+                "roll": 2
+              },
+              "torso": {
+                "lean": 2,
+                "sway": 1.5,
+                "twist": 5
+              },
+              "pelvis": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+              },
+              "leftArm": {
+                "raise": 68,
+                "forward": 44,
+                "twist": 64,
+                "elbowBend": 20,
+                "forearmTwist": -28
+              },
+              "rightArm": {
+                "raise": 4,
+                "forward": 6,
+                "twist": 4,
+                "elbowBend": 10,
+                "forearmTwist": 0
+              },
+              "leftHand": {
+                "preset": "wave",
+                "wristFlex": -16,
+                "wristDev": 0
+              },
+              "rightHand": "relaxed",
+              "face": {
+                "mouthSmile": 0.92,
+                "jawOpen": 0.22,
+                "eyeBlinkL": 0,
+                "eyeBlinkR": 0,
+                "eyeLookX": 0.06,
+                "eyeLookY": 0.04,
+                "eyeConfused": 0,
+                "showSuccess": 0,
+                "thrusterGlow": 1
+              }
+            },
+            {
+              "t": 1.1,
+              "ease": "sine",
+              "head": {
+                "yaw": -1.5,
+                "pitch": 3.8,
+                "roll": -2
+              },
+              "torso": {
+                "lean": 2,
+                "sway": -1.2,
+                "twist": 3.2
+              },
+              "pelvis": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+              },
+              "leftArm": {
+                "raise": 65.5,
+                "forward": 42.3,
+                "twist": 64.2,
+                "elbowBend": 26.5,
+                "forearmTwist": -28.3
+              },
+              "rightArm": {
+                "raise": 2.2,
+                "forward": 4.2,
+                "twist": 4,
+                "elbowBend": 8.2,
+                "forearmTwist": 0
+              },
+              "leftHand": {
+                "preset": "wave",
+                "wristFlex": -15.3,
+                "wristDev": 11
+              },
+              "rightHand": "relaxed",
+              "face": {
+                "mouthSmile": 0.9,
+                "jawOpen": 0.15,
+                "eyeBlinkL": 0,
+                "eyeBlinkR": 0,
+                "eyeLookX": -0.04,
+                "eyeLookY": 0.04,
+                "eyeConfused": 0,
+                "showSuccess": 0,
+                "thrusterGlow": 0.94
+              }
+            },
+            {
+              "t": 1.2,
+              "ease": "sine",
+              "head": {
+                "yaw": -2,
+                "pitch": 4,
+                "roll": -2.5
+              },
+              "torso": {
+                "lean": 2,
+                "sway": -1.5,
+                "twist": 3
+              },
+              "pelvis": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+              },
+              "leftArm": {
+                "raise": 66,
+                "forward": 42,
+                "twist": 64,
+                "elbowBend": 28,
+                "forearmTwist": -28
+              },
+              "rightArm": {
+                "raise": 2,
+                "forward": 4,
+                "twist": 4,
+                "elbowBend": 8,
+                "forearmTwist": 0
+              },
+              "leftHand": {
+                "preset": "wave",
+                "wristFlex": -15,
+                "wristDev": 14
+              },
+              "rightHand": "relaxed",
+              "face": {
+                "mouthSmile": 0.95,
+                "jawOpen": 0.16,
+                "eyeBlinkL": 0.95,
+                "eyeBlinkR": 0.95,
+                "eyeLookX": 0,
+                "eyeLookY": 0.04,
+                "eyeConfused": 0,
+                "showSuccess": 0,
+                "thrusterGlow": 0.92
+              }
+            },
+            {
+              "t": 1.32,
+              "ease": "sine",
+              "head": {
+                "yaw": -1.2,
+                "pitch": 3.6,
+                "roll": -1.6
+              },
+              "torso": {
+                "lean": 2,
+                "sway": -0.8,
+                "twist": 3.4
+              },
+              "pelvis": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+              },
+              "leftArm": {
+                "raise": 65.2,
+                "forward": 42.6,
+                "twist": 64.4,
+                "elbowBend": 24.5,
+                "forearmTwist": -28.6
+              },
+              "rightArm": {
+                "raise": 2.5,
+                "forward": 4.5,
+                "twist": 4,
+                "elbowBend": 8.5,
+                "forearmTwist": 0
+              },
+              "leftHand": {
+                "preset": "wave",
+                "wristFlex": -15.6,
+                "wristDev": 8
+              },
+              "rightHand": "relaxed",
+              "face": {
+                "mouthSmile": 0.9,
+                "jawOpen": 0.17,
+                "eyeBlinkL": 0,
+                "eyeBlinkR": 0,
+                "eyeLookX": 0,
+                "eyeLookY": 0.04,
+                "eyeConfused": 0,
+                "showSuccess": 0,
+                "thrusterGlow": 0.95
+              }
+            },
+            {
+              "t": 1.8,
+              "ease": "sine",
+              "head": {
+                "yaw": 2,
+                "pitch": 2,
+                "roll": 2
+              },
+              "torso": {
+                "lean": 2,
+                "sway": 1.5,
+                "twist": 5
+              },
+              "pelvis": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+              },
+              "leftArm": {
+                "raise": 68,
+                "forward": 44,
+                "twist": 64,
+                "elbowBend": 20,
+                "forearmTwist": -28
+              },
+              "rightArm": {
+                "raise": 4,
+                "forward": 6,
+                "twist": 4,
+                "elbowBend": 10,
+                "forearmTwist": 0
+              },
+              "leftHand": {
+                "preset": "wave",
+                "wristFlex": -16,
+                "wristDev": 0
+              },
+              "rightHand": "relaxed",
+              "face": {
+                "mouthSmile": 0.92,
+                "jawOpen": 0.22,
+                "eyeBlinkL": 0,
+                "eyeBlinkR": 0,
+                "eyeLookX": 0.06,
+                "eyeLookY": 0.04,
+                "eyeConfused": 0,
+                "showSuccess": 0,
+                "thrusterGlow": 1
+              }
+            },
+            {
+              "t": 2.4,
+              "ease": "sine",
+              "head": {
+                "yaw": -2,
+                "pitch": 4,
+                "roll": -2.5
+              },
+              "torso": {
+                "lean": 2,
+                "sway": -1.5,
+                "twist": 3
+              },
+              "pelvis": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+              },
+              "leftArm": {
+                "raise": 66,
+                "forward": 42,
+                "twist": 64,
+                "elbowBend": 28,
+                "forearmTwist": -28
+              },
+              "rightArm": {
+                "raise": 2,
+                "forward": 4,
+                "twist": 4,
+                "elbowBend": 8,
+                "forearmTwist": 0
+              },
+              "leftHand": {
+                "preset": "wave",
+                "wristFlex": -15,
+                "wristDev": 14
+              },
+              "rightHand": "relaxed",
+              "face": {
+                "mouthSmile": 0.88,
+                "jawOpen": 0.14,
+                "eyeBlinkL": 0,
+                "eyeBlinkR": 0,
+                "eyeLookX": -0.06,
+                "eyeLookY": 0.04,
+                "eyeConfused": 0,
+                "showSuccess": 0,
+                "thrusterGlow": 0.92
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "drafts": {
+    "animation": null,
+    "dress": null
+  }
+}

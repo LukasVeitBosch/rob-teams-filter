@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en" data-rob-edition="i3c-christmas">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <title>I3C Alliance Christmas Video Filter</title>
+    <script>
+      window.__ROB_FILTER_EDITION__ = 'i3c-christmas';
+      try {
+        var savedTheme = window.localStorage.getItem('rob-i3c-ui-theme');
+        if (savedTheme === 'light' || savedTheme === 'dark') {
+          document.documentElement.setAttribute('data-theme', savedTheme);
+        }
+      } catch (e) {}
+    </script>
+    <style id="i3c-theme-vars">
+      :root {
+        color-scheme: dark;
+        --bg: light-dark(#f1f5f9, #14161d);
+        --panel: light-dark(#ffffff, #1d202a);
+        --surface: light-dark(#f8fafc, #252936);
+        --elevated: light-dark(#ffffff, #2c3140);
+        --input-bg: light-dark(#ffffff, #161922);
+        --text: light-dark(#0f172a, #f8fafc);
+        --muted: light-dark(#475569, #94a3b8);
+        --subtle: light-dark(#64748b, #94a3b8);
+        --border: light-dark(rgba(15, 23, 42, 0.12), rgba(148, 163, 184, 0.16));
+        --accent: light-dark(#4f52b2, #5b5fc7);
+        --accent-fg: #ffffff;
+        --accent-tint: light-dark(rgba(79, 82, 178, 0.1), rgba(91, 95, 199, 0.18));
+        --accent-border: light-dark(#4f52b2, #7f85f5);
+        --accent-text: light-dark(#4338ca, #a5b4fc);
+        --shadow: 0 8px 24px light-dark(rgba(15, 23, 42, 0.08), rgba(0, 0, 0, 0.32));
+      }
+      @media (prefers-color-scheme: light) {
+        :root:not([data-theme='dark']) {
+          color-scheme: light;
+        }
+      }
+      :root[data-theme='light'] {
+        color-scheme: light;
+      }
+      *, *::before, *::after {
+        box-sizing: border-box;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+        min-height: 100vh;
+        -webkit-font-smoothing: antialiased;
+      }
+      /* Keep the raw Three.js canvas off-screen visually so it only composites into #rob-teams-composite-canvas */
+      #rob-webgl-overlay {
+        opacity: 0 !important;
+        pointer-events: none !important;
+        z-index: -1 !important;
+      }
+    </style>
+    <script type="module" crossorigin src="./assets/catalogData-U2rgJb6E.js"></script>
+    <script type="module" crossorigin src="./assets/teamsFilterMain-Cf8ITjw0.js"></script>
+  </head>
+  <body>
+    <div id="teams-filter-root"></div>
+    <script src="./teams-js.min.js"></script>
+  </body>
+</html>

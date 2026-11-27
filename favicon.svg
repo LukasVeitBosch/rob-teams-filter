@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="helmetGrad" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="68%" stop-color="#f1f5f9" />
+      <stop offset="100%" stop-color="#cbd5e1" />
+    </linearGradient>
+    <linearGradient id="visorGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#162233" />
+      <stop offset="45%" stop-color="#0d1520" />
+      <stop offset="100%" stop-color="#070c14" />
+    </linearGradient>
+    <linearGradient id="boschRing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e20015" />
+      <stop offset="35%" stop-color="#9e2896" />
+      <stop offset="70%" stop-color="#007bc0" />
+      <stop offset="100%" stop-color="#00884a" />
+    </linearGradient>
+    <filter id="cyanGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Rounded dark studio badge background with subtle cyan rim -->
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="url(#bgGrad)" stroke="#334155" stroke-width="2" />
+
+  <!-- Twin side antennas with glowing cyan tips -->
+  <line x1="25" y1="36" x2="20" y2="23" stroke="#64748b" stroke-width="3" stroke-linecap="round" />
+  <circle cx="19.5" cy="22" r="3.5" fill="#38bdf8" filter="url(#cyanGlow)" />
+  <line x1="103" y1="36" x2="108" y2="23" stroke="#64748b" stroke-width="3" stroke-linecap="round" />
+  <circle cx="108.5" cy="22" r="3.5" fill="#38bdf8" filter="url(#cyanGlow)" />
+
+  <!-- Bust / Torso -->
+  <path d="M30 120 C30 93, 44 84, 64 84 C84 84, 98 93, 98 120 Z" fill="url(#helmetGrad)" stroke="#94a3b8" stroke-width="1.5" />
+
+  <!-- Neck joint -->
+  <rect x="53" y="76" width="22" height="9" rx="3.5" fill="#1e293b" stroke="#475569" stroke-width="1.2" />
+
+  <!-- Side ear-caps (dark acoustic joint + white outer cap) -->
+  <rect x="13" y="41" width="10" height="22" rx="5" fill="#1e293b" />
+  <rect x="9" y="44" width="6.5" height="16" rx="3.2" fill="url(#helmetGrad)" stroke="#94a3b8" stroke-width="1.2" />
+  <rect x="105" y="41" width="10" height="22" rx="5" fill="#1e293b" />
+  <rect x="112.5" y="44" width="6.5" height="16" rx="3.2" fill="url(#helmetGrad)" stroke="#94a3b8" stroke-width="1.2" />
+
+  <!-- White 3D rounded helmet shell -->
+  <rect x="19" y="18" width="90" height="61" rx="28" fill="url(#helmetGrad)" stroke="#94a3b8" stroke-width="1.6" />
+
+  <!-- Dark glossy monitor visor (#0d1520) -->
+  <rect x="27" y="27" width="74" height="45" rx="16" fill="url(#visorGrad)" stroke="#1e293b" stroke-width="1.5" />
+
+  <!-- Glossy top visor reflection highlight -->
+  <ellipse cx="64" cy="33" rx="24" ry="4.5" fill="#ffffff" fill-opacity="0.14" />
+
+  <!-- Glowing cyan happy eyes (#38bdf8) -->
+  <g filter="url(#cyanGlow)">
+    <!-- Left happy arched eye -->
+    <path d="M40 50 C40 42.5, 53 42.5, 53 50 C53 52, 40 52, 40 50 Z" fill="#38bdf8" />
+    <path d="M42.5 49.2 C42.5 44.5, 50.5 44.5, 50.5 49.2 Z" fill="#e0f2fe" />
+    <!-- Right happy arched eye -->
+    <path d="M75 50 C75 42.5, 88 42.5, 88 50 C88 52, 75 52, 75 50 Z" fill="#38bdf8" />
+    <path d="M77.5 49.2 C77.5 44.5, 85.5 44.5, 85.5 49.2 Z" fill="#e0f2fe" />
+    <!-- Happy glowing cyan smile -->
+    <path d="M55.5 58.5 Q64 65.5 72.5 58.5" fill="none" stroke="#38bdf8" stroke-width="4.2" stroke-linecap="round" />
+    <path d="M57 58.5 Q64 64 71 58.5" fill="none" stroke="#bae6fd" stroke-width="1.8" stroke-linecap="round" />
+  </g>
+
+  <!-- Bosch colorful chest power ring -->
+  <circle cx="64" cy="103" r="9.5" fill="#ffffff" stroke="url(#boschRing)" stroke-width="3.4" />
+  <circle cx="64" cy="103" r="4" fill="#e0f2fe" opacity="0.6" />
+</svg>
